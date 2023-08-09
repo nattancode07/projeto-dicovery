@@ -73,9 +73,7 @@ body * {
 #switch{
   position: relative;
   width: 64px;
-  height: 50px;
-  margin: 0px auto;
-  padding-bottom:10px ;
+  margin: 16px auto 0px auto;
 }
 
 #switch button {
@@ -86,10 +84,9 @@ body * {
   background:white var(--switch-bg-url) no-repeat center;
   
 
-  position: relative;
+  position: absolute;
   z-index: 1;
-  left: 0;
-  top: 42px;
+  top: 50%;
   transform: translateY(-50%);
   animation: slide-back 0.2s;
 }
@@ -107,8 +104,9 @@ body * {
 }
 
 #switch span{
-  display: inline;
-  padding: 3px 30px;
+  display: block;
+  width:64px ;
+  height: 24px;
   background: var(--surface-color);
   border:1px solid var(--stroke-color);
   border-radius: 999px;
