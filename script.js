@@ -10,9 +10,9 @@ function toggleMode(){
         const img = document.querySelector("#profile img")
 
        if(html.classList.contains('light')){
-        img.setAttribute('src','assets/avatar-light.png' )
+        img.setAttribute('src','assets/avatar-light.jpg' )
        } else{
-        img.setAttribute("src","assets/avatar.png")
+        img.setAttribute("src","assets/avatar.jpg")
        }
 
        //pegar a tag img
