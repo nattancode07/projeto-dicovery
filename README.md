@@ -14,4 +14,4 @@
 - JAVASCRIPT
 <br><br>
 ## 🎯 Link do projeto:
-### <a href="https://nattancode07.github.io/projeto-dicovery/">https://nattancode07.github.io/projeto-dicovery/</a>
+### <a target="_blank" href="https://nattancode07.github.io/projeto-dicovery/">https://nattancode07.github.io/projeto-dicovery/</a>
